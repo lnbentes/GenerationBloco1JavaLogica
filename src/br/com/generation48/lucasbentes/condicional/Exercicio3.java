@@ -28,6 +28,9 @@ categoria ela se encontra:
 		else if(idade >= 18 && idade <= 25) {
 			System.out.println("adulto");
 		}
+		else{
+			System.out.println("Voce nao pode se candidatar para as modalidades");
+		}
 		
 		ler.close();
 
